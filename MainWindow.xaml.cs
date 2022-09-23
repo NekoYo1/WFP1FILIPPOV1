@@ -40,5 +40,11 @@ namespace WFP1FILIPPOV1
         {
 
         }
+
+        private void Сам_работа_Click(object sender, RoutedEventArgs e)
+        {
+            Window7 window7 = new Window7();
+            window7.Show();
+        }
     }
 }
