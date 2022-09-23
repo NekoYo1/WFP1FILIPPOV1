@@ -32,7 +32,8 @@ namespace WFP1FILIPPOV1
 
         private void Win1_Click(object sender, RoutedEventArgs e)
         {
-
+            Window1 window1 = new Window1();
+            window1.Show();
         }
 
         private void Win2_Click(object sender, RoutedEventArgs e)
